@@ -21,6 +21,7 @@ print(str.encode().decode())
 print(str.encode('gbk'))  # b'\xb4\xab\xd6\xc7\xb2\xa5\xbf\xcd'
 print(str.encode('gbk').decode('gbk'))  # 传智播客
 
-
+# unicode编码转为中文
+print(str.encode('unicode_escape').decode('unicode_escape'))
 
 
